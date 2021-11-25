@@ -1,0 +1,58 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: peachpuff;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: palevioletred;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tempLabel{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: monospace;
+    margin-bottom: 20px;
+    color: peachpuff;
+}
+
+#tempVal{
+    width: 60px;
+}
+
+
+#tempForm{
+    text-align: center;
+}
+
+#submitBtn{
+    margin: 20px;
+    padding: 10px;
+    background-color: peachpuff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: palevioletred;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+#result{
+    font-size: 20px;
+    font-family: monospace;
+    color: peachpuff;
+}

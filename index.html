@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="tempForm" onsubmit="convertTemp(); return false">
+            <label for="tempForm" id="tempLabel">Enter The Value</label><br><br>
+            <input type="number" name="tempVal" id="tempVal" placeholder="0.00" step="0.01">
+            <select name="tempOption" id="tempOption">
+                <option value="cel">Celsius</option>
+                <option value="far">Farhenheight</option>
+            </select><br>
+            <input type="submit" value="Submit" id="submitBtn"><br>
+            <span id="result"></span>
+        </form>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
